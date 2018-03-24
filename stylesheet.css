@@ -1,0 +1,98 @@
+ /* GLOBAL STYLES */
+
+      * {
+      margin: 0;
+      padding: 0;
+      border: 0;
+      outline: 0;
+      font-size: 100%;
+      vertical-align: baseline;
+      background: transparent;
+    }
+
+    a {
+      color: #f00;
+    }
+
+    /* HERO STYLES */
+
+    .full-hero {
+      background-color: #c7dbfc;
+      height: 25vh;
+      text-align: center;
+      margin: 0;
+      clear: both;
+    }
+
+    .hero-home {
+      margin: 0;
+      clear: both;
+    }
+
+    .hero-headline > h1 {
+      font-size: 4em;
+      padding-top: 35px;
+      display: inline-block;
+    }
+
+    /* TOP NAVIGATION STYLES */
+
+    .top-nav li {
+      list-style: none;
+      padding: 0 3% 0 3%;
+      text-align: center;
+      display: inline;
+    }
+
+    .top-nav > li {
+      display: inline-block;
+    }
+
+    .top-nav > li a {
+      color: white;
+    }
+
+    /* CARD STYLES */
+
+    .card-wrapper {
+      background-color: #c0e0c3;
+      overflow: hidden;
+      padding-top: 20px;
+    }
+
+    .card-wrapper > h2 {
+      text-align: center;
+      font-size: 2rem;
+    }
+
+    .card-wrapper:after {
+      visibility: hidden;
+      display: block;
+      font-size: 0;
+      content: " ";
+      clear: both;
+      height: 0;
+    }
+
+    .card {
+      border: 2px solid green;
+      box-sizing: border-box;
+      font-size: 1 rem;
+      float: left;
+      margin: 30px 1% 40px;
+      padding: 2%;
+      width: 23%;
+      text-align: center;
+    }
+
+    .card-text {
+      font-size: 1em;
+    }
+
+    .card-social-link a {
+      display: inline-block;
+      color: blue;
+      background-color: rgba(150, 150, 150, 0.5);
+      height: 36px;
+      width: 36px;
+    }
