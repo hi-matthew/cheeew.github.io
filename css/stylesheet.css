@@ -106,10 +106,18 @@
   }
 
   .hero-links li {
+    transform: translate(-1240%, 20%);
+  }
+
+  .social-links li a {
+    color: white;
+  }
+
+  .social-links li {
     list-style: none;
     box-sizing: border-box;
-    margin: 0 .5% 0 .5%;
     padding: .85em 0;
+    margin: 0 .5% 0 .5%;
     text-align: center;
     display: inline-block;
     background-color: rgba(150, 150, 150, 0.5);
@@ -118,11 +126,6 @@
     height: 2.5em;
     vertical-align: middle;
     position: relative;
-    transform: translate(-1240%, 20%);
-  }
-
-  .hero-links li a {
-    color: white;
   }
 
 /* CARD STYLES */
@@ -246,4 +249,8 @@
 
   .footer-nav a {
     color: #ccc;
+  }
+
+  .footer-social li {
+    margin-top: 1.25em;
   }
