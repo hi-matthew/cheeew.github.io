@@ -1,3 +1,136 @@
 ---
 layout: default
 ---
+<div class="home">
+  <div class="full-hero hero-home">
+    <div class="hero-headline">
+      <h1>Code Dangerously</h1>
+    </div>
+    <ul class="hero-links social-links">
+      {% include social-links.html %}
+    </ul>
+  </div>
+  <div class="home-callout">
+    <h1 class="callout-title">The Learn Enough Story</h1>
+    <div class="callout-copy">
+      <p>
+        Learn Enough to Be Dangerous is a leader in the movement to teach the world
+        <em>technical sophistication</em>, which includes both "hard skills" like
+        coding, command lines, and version control, and "soft skills" like guessing
+        keyboard shortcuts, Googling error messages, and knowing when to just
+        reboot the darn thing.
+      </p>
+      <p>
+        We believe there are <strong>at least a billion people</strong> who can
+        benefit from learning technical sophistication, probably more. To join our
+        movement, <a href="https://learnenough.com/#email_list">sign up for our
+        official email list</a> now.
+      </p>
+      <h3>Background</h3>
+      <p>
+        Learn Enough to Be Dangerous is an outgrowth of the
+        <a href="http://railstutorial.org/">Ruby on Rails Tutorial</a> and the
+        <a href="http://www.softcover.io/">Softcover publishing platform</a>. This
+        page is part of the sample site for <a
+        href="https://learnenough.com/css-tutorial"><em>Learn Enough CSS and Layout
+        to Be Dangerous</em></a>, which teaches the basicics of
+        <strong>C</strong>ascading <strong>S</strong>tyle
+        <strong>S</strong>heets, the language that
+        allows web pages to be styled. Other related tutorials can be found at
+        <a href="https://learnenough.com/">learnenough.com</a>.
+      </p>
+    </div>
+  </div>
+  <!-- Blog insertion starts here -->
+   <div class="home-section">
+    <h4>Most recent post</h4>
+    <div class="blog-posts">
+      <header class="post-header">
+        <h2>
+          <a href="{{ site.posts.first.url }}">
+          {{ site.posts.first.title }}</a>
+        </h2>
+        <div class="post-byline">
+          <img src="{{ site.posts.first.gravatar }}">
+          <a href="{{ site.posts.first.authorTwitter }}" class="social-link">Tw</a>
+          by: {{ site.posts.first.author }}
+          <span> - {{ site.posts.first.date | date: '%B %d, %Y' }}</span>
+        </div>
+      </header>
+      <div class="posts-image"
+        style="background-image:url({{ site.posts.first.postHero }})">
+      </div>
+      {{ site.posts.first.excerpt }}
+    </div>
+  </div>
+    <!-- End blog insertion -->
+    <!-- Begin founders sections -->
+  <div class="section-1">
+    <div class="card-wrapper">
+      <div class="card-wrapper-headline">
+        <h2>The Founders</h2>
+      </div>
+      <div class="card-introduction-text">
+        <p>Learn Enough to Be Dangerous was founded in 2015 by Michael Hartl, Lee
+        Donahoe, and Nick Merwin. We believe that the kind of technical
+        sophistication taught by the Learn Enough tutorials can benefit at least a
+        billion people, and probably more.
+        </p>
+      </div>
+      <div class="cards">
+        <div class="card-heading">
+          <img src="http://placekitten.com/g/400/400">
+          <h3>This is an h3</h3>
+        </div>
+        <div class="card-text">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+        </div>
+        <div class="card-social-link">
+          <a href="https://www.yahoo.com" target="_blank">FB</a>
+        </div>
+      </div>
+      <div class="cards">
+        <div class="card-heading">
+          <img src="http://placekitten.com/g/400/400">
+          <h3>This is an h3</h3>
+        </div>
+        <div class="card-text">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+        </div>
+        <div class="card-social-link">
+          <a href="https://www.yahoo.com" target="_blank">IG</a>
+        </div>
+      </div>
+      <div class="cards">
+        <div class="card-heading">
+          <img src="http://placekitten.com/g/400/400">
+          <h3>This is an h3</h3>
+        </div>
+        <div class="card-text">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+        </div>
+        <div class="card-social-link">
+          <a href="https://www.yahoo.com" target="_blank">Tw</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
