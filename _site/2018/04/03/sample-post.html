@@ -3,6 +3,7 @@
 <head>
   <title>Testing</title>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" href="/css/reset.css">
   <link rel="stylesheet" type="text/css" href="/css/stylesheet.css">
 </head>
@@ -11,10 +12,22 @@
 
 <header class="header">
 <nav>
+  <input type="checkbox" id="mobile-menu" class="mobile-menu-check">
+  <label for="mobile-menu" class="show-mobile-menu">Menu</label>
   <ul class="header-nav nav-links">
       <li><a href="/">Home</a></li>
   <li><a href="/gallery">Gallery</a></li>
-  <li><a href="/blog">Blog</a></li>
+  <li class="dropdown">
+    <a href="/blog" class="drop-trigger">Blog</a>
+    <ul class="drop-menu">
+      <li>Recent Posts</li>
+      
+      <li><a href="/2018/04/03/sample-post.html">Learning How to Learn</a></li>
+      
+      <li><a href="/2018/04/02/sample-post.html">Punch a Shark in the Face</a></li>
+      
+    </ul>
+  </li>
   <li><a href="/2018/04/03/sample-post.html">Newest Post</a></li>
 
   </ul>
@@ -95,7 +108,17 @@ cherish very nearly the same feelings towards the ocean with me.</p>
    <ul class="footer-nav nav-links">
       <li><a href="/">Home</a></li>
   <li><a href="/gallery">Gallery</a></li>
-  <li><a href="/blog">Blog</a></li>
+  <li class="dropdown">
+    <a href="/blog" class="drop-trigger">Blog</a>
+    <ul class="drop-menu">
+      <li>Recent Posts</li>
+      
+      <li><a href="/2018/04/03/sample-post.html">Learning How to Learn</a></li>
+      
+      <li><a href="/2018/04/02/sample-post.html">Punch a Shark in the Face</a></li>
+      
+    </ul>
+  </li>
   <li><a href="/2018/04/03/sample-post.html">Newest Post</a></li>
 
   </ul>
