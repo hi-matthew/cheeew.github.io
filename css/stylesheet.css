@@ -486,6 +486,7 @@
     color: #fff;
     background-color: rgb(65, 133, 242);
     opacity: 1;
+    transition: all 0.3s ease-in-out;
   }
 
 /* COLUMN STYLES */
@@ -552,8 +553,9 @@
 
   .gallery-thumbs img:hover {
     opacity: 1;
-    width: 50%;
+    width: 112%;
   }
+
   .gallery-thumbs .current img {
     box-shadow: 0 0 0 5px #ed6e2f;
     opacity: 1;
@@ -817,7 +819,7 @@
         position: absolute;
         text-align: center;
         top: 10vh;
-        transition: all .5s ease-in-out;
+        transition: all 2s ease-in-out;
         width: 100vw;
         z-index: 9;
       }
